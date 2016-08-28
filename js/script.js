@@ -48,7 +48,6 @@ window.onload = function() {
     scene.add(mesh);
 
     function loop() {
-        //mesh.position.x += 1;
         mesh.rotation.y += ball.rotationY;
         mesh.rotation.x += ball.rotationX;
         mesh.rotation.z += ball.rotationZ;
