@@ -41,7 +41,6 @@ window.onload = function() {
 
     for(var i = 0; i < geometry.faces.length; i++) {
         geometry.faces[i].color.setRGB(Math.random(), Math.random(), Math.random());
-
     }
 
     var mesh = new THREE.Mesh(geometry, material);
