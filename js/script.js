@@ -24,7 +24,6 @@ window.onload = function() {
     gui.add(ball, 'positionY').min(-5).max(5).step(0.1);
     gui.add(ball, 'positionZ').min(-5).max(5).step(0.1);
 
-
     var renderer = new THREE.WebGLRenderer({canvas: canvas});
     renderer.setClearColor(0x000000);
 
